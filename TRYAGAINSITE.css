@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+    
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    color: rgb(85, 3, 102);
+
+    }
+
+body{
+
+    background-color: rgb(253, 237, 251);
+
+}
+
+
+#instagram {
+    float: right;
+
+}
+
+#snapchat {
+    float: right;
+}
+
+#facebook {
+    float: right;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(123, 36, 163);
+}
+
+li {
+    float: left;
+    
+
+}
+
+li a {
+    display: block;
+    color: rgb(253, 221, 221);
+    font-size: 20px;
+    font-family: 'Ranga', cursive;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(15, 138, 70);
+}
+
+figure{
+    width:1504px; /*container-width*/
+    overflow:hidden; /*hide bounds of image */
+    margin:0;   /*reset margin of figure tag*/
+ }
+ figure img{
+    display:block; /*remove inline-block spaces*/
+    width:100%; /*make image streatch*/
+ }
